@@ -1,0 +1,25 @@
+<!-- index.html (o formulario.html) -->
+<form action="guardar.php" method=”POST">
+    
+    <!-- Campo ID -->
+    <label for="id">ID</label>
+    <input type="text" id="id" name="id" placeholder="Ej. 1001" required>
+ 
+    <!-- Campo Nombre -->
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+ 
+    <!-- Campo Email -->
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+ 
+    <!-- Campo Teléfono -->
+    <label for="telefono">Teléfono</label>
+    <input type="tel" id="telefono" name="telefono" placeholder="+52 123 456 7890" required>
+ 
+    <!-- Botones -->
+    <div class="buttons">
+        <button type="reset">Limpiar</button>
+        <button type="submit">Enviar</button>
+    </div>
+</form>
